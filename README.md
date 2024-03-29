@@ -1,6 +1,6 @@
 # ChatGLM-6b with LoRA Fine-tuning
 
-本项目通过LoRA (Low-Rank Adaptation) 技术对ChatGLM-6b模型进行微调，旨在提高特定任务的性能而不显著增加参数数量。适合需要针对特定领域或任务优化预训练大模型的研究者和开发者。
+本项目通过LoRA (Low-Rank Adaptation) 技术对ChatGLM-6b模型进行微调，旨在提高特定任务的性能而不显著增加参数数量。微调使用睡眠理疗师模拟对话数据集。
 
 ## 环境需求
 
