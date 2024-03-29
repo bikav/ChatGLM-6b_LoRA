@@ -25,8 +25,8 @@ pip install -r requirements.txt
 ```
 
 ## 引用
-[https://github.com/taishan1994/ChatGLM-LoRA-Tuning]
-
-[https://github.com/hkust-nlp/ceval]
-
-[https://juejin.cn/post/7249626243125231677]
+> https://github.com/taishan1994/ChatGLM-LoRA-Tuning
+> 
+> https://github.com/hkust-nlp/ceval
+> 
+> https://juejin.cn/post/7249626243125231677
