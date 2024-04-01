@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 ### 1、数据准备
 
-**放置数据集**：首先，将原始数据集放置在项目目录下的data/preprocess文件夹中。确保你的文件结构如下所示：
+**放置数据集**：首先，将原始数据集放置在项目目录下的`data/preprocess`文件夹中。确保你的文件结构如下所示：
 
 ```bash
 your-project/
@@ -38,7 +38,11 @@ your-project/
 
 **预处理数据集**：使用下列脚本对数据集进行预处理。这些步骤将帮助你分割数据集、修改标签、调整数据内容，并转换数据格式。
 
-`分割数据集：
+ **· 分割数据集**
+
+```python
+python split_dataset.py
+```
 
 将数据集放在`./data/preprocess`中，使用split_dataset.py、modify_labels.py、modify_data_content.py和data_conversion_format.py进行预处理，并将预处理后的数据集保存在`./data`中。
 
