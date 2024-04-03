@@ -83,7 +83,13 @@ your-project/
 deepspeed train_deepspeed.py
 ```
 
-### 3、
+### 3、模型评估
+
+**BLEU和ROUGE评估**
+
+**C-Eval评估**
+
+### 4、对话
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
