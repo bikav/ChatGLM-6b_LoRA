@@ -28,7 +28,9 @@ pip install -r requirements.txt
 
 ### 1、数据准备
 
-**步骤1：放置数据集**：将原始数据集放置在项目目录下的`data/preprocess`文件夹中。确保你的文件结构如下所示：
+**步骤1：放置数据集**
+
+将原始数据集放置在项目目录下的`data/preprocess`文件夹中。确保你的文件结构如下所示：
 
 ```bash
 your-project/
@@ -36,9 +38,9 @@ your-project/
     └── preprocess/
 ```
 
-`---`
+**步骤2：预处理数据集**
 
-**步骤2：预处理数据集**：使用下列脚本对数据集进行预处理。
+使用下列脚本对数据集进行预处理：
 
 - 修改标签
 
@@ -64,12 +66,16 @@ python modify_data_content.py
 python split_dataset.py
 ```
 
-**步骤3：保存预处理后的数据集**：执行上述脚本后，数据集将被处理并保存在 `data` 目录中。确保预处理后的数据存储结构如下：
+**步骤3：保存预处理后的数据集**
+
+执行上述脚本后，数据集将被处理并保存在 `data` 目录中。确保预处理后的数据存储结构如下：
 
 ```bash
 your-project/
 ├── data/ # 预处理后的数据集位置
 ```
+
+### 2、
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
