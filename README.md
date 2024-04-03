@@ -75,7 +75,15 @@ your-project/
 ├── data/ # 预处理后的数据集位置
 ```
 
-### 2、
+### 2、模型训练
+
+使用以下脚本进行训练：
+
+```python
+deepspeed train_deepspeed.py
+```
+
+### 3、
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
