@@ -62,6 +62,13 @@ python modify_data_content.py
 python split_dataset.py
 ```
 
+**保存预处理后的数据集**：执行上述脚本后，数据集将被处理并保存在 `data` 目录中。确保预处理后的数据存储结构如下：
+
+```bash
+your-project/
+├── data/ # 预处理后的数据集位置
+```
+
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
 > 
