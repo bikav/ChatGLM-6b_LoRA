@@ -38,14 +38,29 @@ your-project/
 
 **预处理数据集**：使用下列脚本对数据集进行预处理。这些步骤将帮助你分割数据集、修改标签、调整数据内容，并转换数据格式。
 
+- 修改标签
+
+```python
+python modify_labels.py
+```
+
+- 转换数据格式
+
+```python
+python data_conversion_format.py
+```
+
+- 修改instruct字段的内容
+
+```python
+python modify_data_content.py
+```
+
 - 分割数据集
 
 ```python
 python split_dataset.py
 ```
-
-将数据集放在`./data/preprocess`中，使用split_dataset.py、modify_labels.py、modify_data_content.py和data_conversion_format.py进行预处理，并将预处理后的数据集保存在`./data`中。
-
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
