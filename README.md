@@ -105,7 +105,17 @@ python evaluation.py
 bash ceval/cli.sh
 ```
 
-### 4、对话
+### 4、本地部署
+
+使用以下脚本将微调模型部署到本地：
+
+```python
+python chat.py
+```
+
+## 模型指标
+
+
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
