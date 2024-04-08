@@ -9,6 +9,7 @@
 ## 环境需求
 
 - Python 3.x
+- torch==2.1.1+cu118
 - transformers==4.28.1
 - peft==0.3.0
 - deepspeed==0.9.2
@@ -17,8 +18,6 @@
 - accelerate
 - cpm_kernels
 - sentencepiece==0.1.99
-- peft=0.3.0
-- torch=2.0.0 
 
 ## 安装指南
 
