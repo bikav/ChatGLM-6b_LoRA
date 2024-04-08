@@ -6,9 +6,7 @@ from accelerate import infer_auto_device_map, init_empty_weights, load_checkpoin
 from transformers import AutoTokenizer, AutoModel, AutoConfig
 from peft import get_peft_model, LoraConfig, TaskType, PeftModel
 
-data_name = "sleep"
-
-train_args_path = "lora_model/train_args.json".format(data_name)
+train_args_path = "lora_model/train_args.json"
 with open(train_args_path, "r") as fp:
     args = json.load(fp)
 
@@ -25,9 +23,9 @@ model.half().cuda()
 model.eval()
 
 while True:
-    inp = input("User >>> ")
-    if not isinstance(inp, str):
-        inp = str(inp)
-    response, history = model.chat(tokenizer, inp, history=[])
+    input = input("User >>> ")
+    if not isinstance(input, str):
+        input = str(input)
+    response, history = model.chat(tokenizer, input, history=[])
     print("Chat >>> ", response)
     print("="*100)
