@@ -115,6 +115,7 @@ python chat.py
 
 ## 模型指标
 
+![损失曲线](./loss_curve.png)
 
 
 ## 引用
