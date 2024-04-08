@@ -1,6 +1,10 @@
 # ChatGLM-6b with LoRA Fine-tuning
 
-本项目通过LoRA (Low-Rank Adaptation) 技术对ChatGLM-6b模型进行微调，旨在提高特定任务的性能而不显著增加参数数量。微调使用睡眠理疗师模拟对话数据集。
+本项目专注于为失眠患者提供心理治疗服务，通过LoRA (Low-Rank Adaptation) 技术对ChatGLM-6b模型进行微调，并进行临床试验证明了其在技术上的可行性与临床应用的潜力。
+
+该项目处理的数据集包含5000条与睡眠障碍相关的对话，分为训练集、验证集和测试集，以确保模型的准确性和可靠性。
+
+该项目在为失眠患者提供有效心理治疗方案方面展示出创新成果，标志着使用先进语言模型辅助心理治疗在医疗健康领域的一大步。
 
 ## 环境需求
 
@@ -87,7 +91,19 @@ deepspeed train_deepspeed.py
 
 **BLEU和ROUGE评估**
 
+执行BLEU和ROUGE评估脚本：
+
+```python
+python evaluation.py
+```
+
 **C-Eval评估**
+
+执行C-Eval评估命令：
+
+```bash
+bash ceval/cli.sh
+```
 
 ### 4、对话
 
