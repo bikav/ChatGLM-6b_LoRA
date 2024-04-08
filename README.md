@@ -115,11 +115,11 @@ python chat.py
 
 ## 模型指标
 
-**损失曲线**
+### 损失曲线
 
 ![损失曲线](./loss_curve.png)
 
-**评估结果**
+### 评估结果
 
 ![评估结果](./evaluation_result.png)
 
