@@ -10,9 +10,6 @@ train_args_path = "lora_model/train_args.json"
 with open(train_args_path, "r") as fp:
     args = json.load(fp)
 
-
-config = AutoConfig.from_pretrained(args["model_dir"], trust_remote_code=True)
-pprint(config)
 tokenizer = AutoTokenizer.from_pretrained(args["model_dir"],  trust_remote_code=True)
 
 model = AutoModel.from_pretrained(args["model_dir"],  trust_remote_code=True).half().cuda()
