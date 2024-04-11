@@ -100,8 +100,8 @@ python evaluation.py
 
 执行C-Eval评估命令：
 
-```bash
-bash ceval/cli.sh
+```python
+python CEval/evaluate_ceval.py
 ```
 
 ### 4、本地部署
