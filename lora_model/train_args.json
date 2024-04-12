@@ -1,0 +1,20 @@
+{
+  "data_name": "sleep",
+  "model_dir": "THUDM/chatglm-6b",
+  "lora_r": 32,
+  "max_source_length": 128,
+  "max_target_length": 64,
+  "instruct_column": "instruct",
+  "query_column": "query",
+  "response_column": "answer",
+  "train_path": "data/sleep_train.txt",
+  "dev_path": "data/sleep_dev.txt",
+  "ignore_pad_token_for_loss": true,
+  "train_batch_size": 6,
+  "gradient_accumulation_steps": 2,
+  "save_dir": "lora_model/",
+  "num_train_epochs": 10,
+  "local_rank": 0,
+  "log_steps": 10,
+  "save_steps": 50
+}
