@@ -116,11 +116,11 @@ python chat.py
 
 ### 损失曲线
 
-![损失曲线](./loss_curve.png)
+![损失曲线](./assets/loss_curve.png)
 
 ### 评估结果
 
-![评估结果](./evaluation_result.png)
+![评估结果](./assets/evaluation_result.png)
 
 ## 引用
 > https://github.com/taishan1994/ChatGLM-LoRA-Tuning
